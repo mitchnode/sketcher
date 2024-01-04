@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1032px;
+    max-height: 1032px;
+}
+
+.square {
+    border: black solid 1px;
+}
+
+.new {
+    color: white;
+}
+
+.sketched {
+    color: rgba(100,100,100,50);
+}
