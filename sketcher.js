@@ -9,7 +9,9 @@ function createGrid(grid){
             const newSquare = document.createElement('div');
             newSquare.classList = 'square new';
             newSquare.setAttribute("style","width:" + size + "px; height: " + size + "px");
-            newSquare.addEventListener('click', function(square){square.classList = 'square sketched'});
+            newSquare.addEventListener('mouseover', function () {
+                newSquare.classList = 'square sketched';
+            });
             container.appendChild(newSquare);
         }
     }
